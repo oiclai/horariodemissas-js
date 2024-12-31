@@ -10,4 +10,4 @@ to-Dos:
 - weekday set page ()
 - weekdays page ()
 -----------> Extra
-* possivel bdd para fazer as paginas dinamicamente - ou alguma biblioteca tipo o flask (python)
+* possivel bdd 

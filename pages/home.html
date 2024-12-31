@@ -7,8 +7,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-
+    <script src="https://cdn.tailwindcss.com"></script> <!-- implementando tailwind -->
+    <!-- personalizando cores em hex pra ficar mais facil de colocar nas classes tailwind -->
+    <script> 
+        module.exports = {
+            theme: {
+                extend: {
+                    colors: {
+                        'navy-blue': '#222836',
+                        'white-blue': '#f0f2f7',
+                        'grey-blue': '#cfcfcf',
+                        'navy-blue': '#222836',
+                    },
+                }
+            }
+        }
+    </script>
 </head>
 <body class="m-0 p-0">
     <header class="bg-[#faf6f3] p-2.5">

@@ -1,0 +1,13 @@
+to-Dos:
+-----------> HTML + Tailwindcss
+- home page ()
+- registration page ()
+- weekday set page ()
+- weekdays page ()
+-----------> JavaScript
+- home page ()
+- registration page ()
+- weekday set page ()
+- weekdays page ()
+-----------> Extra
+* possivel bdd para fazer as paginas dinamicamente - ou alguma biblioteca tipo o flask (python)

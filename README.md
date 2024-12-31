@@ -1,7 +1,19 @@
-# Projeto Avaliativo ⛪ 'Horários De Missa'
+# Projeto Avaliativo 'Horários De Missa'
 Repositório para realização das etapa I do projeto da Disciplina Linguagem de Script. 2024.2.
 
 A essência do projeto esta na praticidade do usuário acessar e se informar quanto as atividades de missas das igrejas da cidade, sendo categorizadas por dias da semana e subcategorizadas em zonas da cidade e turnos de missa.
+
+**⛪ Estrutura do projeto**
+```cmd
+/horariodemissas-js
+    ├── /pages
+    │       └── home.html
+    │       └── weekdays.html
+    │       └── login.html
+    │       └── weekdays_set.html
+    ├── app_weekdays.js
+    └── horarios.json
+```
 
 > Reutilização do projeto de LM 2024.1
 

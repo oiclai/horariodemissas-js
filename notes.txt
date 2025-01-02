@@ -1,7 +1,7 @@
 to-Dos:
 -----------> HTML + Tailwindcss
 - home page (x)
-- registration page ()
+- registration page (x)
 - weekday set page ()
 - weekdays page ()
 -----------> JavaScript

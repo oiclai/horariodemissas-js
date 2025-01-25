@@ -241,6 +241,12 @@ const missas = [
 }
 ];
 
+document.addEventListener("DOMContentLoaded", () => {
+    const app = document.getElementById("app");
+    const missasSalvas = JSON.parse(localStorage.getItem("missas")) || [];
+    renderMissas(app, missasSalvas);
+});
+
 localStorage.setItem("missas", JSON.stringify(missas));
 
 // Função para renderizar as missas no HTML

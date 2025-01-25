@@ -235,29 +235,7 @@ const missas = [
     },
 ];
 
-// // Pegando div do HTML
-// const listContainer = document.querySelector("#list");
-// // const header = document.querySelector("#header"); // Ajuste o seletor conforme necessário
-// // const search = document.querySelector("#search"); // Ajuste o seletor conforme necessário
 
-// function render(missas) {
-//     let list = "";
-
-//     for (let i = 0; i < missas.length; i++) {
-//         const missa = missas[i];
-//         list += `
-//       <div class='missa'>
-//         <div class='missa-horario'>${missa.horario}</div>
-//         <div class='missa-zona'>${missa.zona}</div>
-//       </div>
-//     `;
-//     }
-
-//     listContainer.innerHTML = list;
-// }
-
-// // Chama a função render passando o array de missas
-// render(missas);
 const listContainer = document.querySelector("#list");
 
 function render(missas) {

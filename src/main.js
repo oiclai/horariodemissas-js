@@ -235,30 +235,42 @@ const missas = [
     },
 ];
 
+       const cards = document.querySelectorAll(".card");
+       const listContainer = document.querySelector("#list");
 
-const listContainer = document.querySelector("#list");
+       // Função para renderizar as missas
+       function renderMissas(missas) {
+           let list = missas
+               .map(
+                   (missa) => `
+    <div class="missa border p-4 rounded bg-gray-100">
+      <h3 class="font-bold text-lg">${missa.igreja}</h3>
+      <p><strong>Horário:</strong> ${missa.horario}</p>
+      <p><strong>Bairro:</strong> ${missa.bairro}</p>
+      <p><strong>Turno:</strong> ${missa.turno}</p>
+      <p><strong>Dia:</strong> ${missa.dia}</p>
+    </div>`
+               )
+               .join("");
 
-function render(missas) {
-    let list = "";
+           // Atualiza o conteúdo da lista
+           listContainer.innerHTML = list;
+       }
 
-    // Iterando sobre o array de missas
-    for (let i = 0; i < missas.length; i++) {
-        const missa = missas[i];
-        list += `
-      <div class="missa">
-        <h3>${missa.igreja}</h3>
-        <p><strong>Horário:</strong> ${missa.horario}</p>
-        <p><strong>Bairro:</strong> ${missa.bairro}</p>
-        <p><strong>Turno:</strong> ${missa.turno}</p>
-        <p><strong>Dia:</strong> ${missa.dia}</p>
-        <p><strong>Zona:</strong> ${missa.zona}</p>
-      </div>
-    `;
-    }
+       // Inicializa com todas as missas
+       renderMissas(missas);
 
-    // Inserindo a lista de missas na div
-    listContainer.innerHTML = list;
-}
+       // Adiciona eventos de clique aos cartões
+       cards.forEach((card) => {
+           card.addEventListener("click", () => {
+               const zonaSelecionada = card.getAttribute("data-zona");
 
-// Chama a função render passando o array de missas
-render(missas);
+               // Filtra as missas pela zona selecionada
+               const missasFiltradas = missas.filter(
+                   (missa) => missa.zona === zonaSelecionada
+               );
+
+               // Atualiza a lista com as missas filtradas
+               renderMissas(missasFiltradas);
+           });
+       });

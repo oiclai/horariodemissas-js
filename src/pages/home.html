@@ -98,54 +98,38 @@
 </div>
 
 <main>
+ 
   <div class="bg-[#edeadd] py-10 sm:py-10 t">
   <div class="mx-auto max-w-7xl px-6 lg:px-8 ">
     <div class="flex mx-auto  items-center lg:mx-0 justify-center mb-10">
       <h2 class="text-pretty text-4xl tracking-tight text-[#3a5470] sm:text-5xl "> Ache seu horário por zona!</h2>
 
     </div>
-   
-        <!-- inicio dos cards-->
-  <div class=" grid justify-center gap-6 flex-wrap mx-auto mb-10 w-auto grid-cols-4"> <!-- caixinha com os nomes + icones -->
-               
-            
-    <div class="bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 pd-0 h-[100px] ml-4 mr-2"> <!-- cada caixa -->
-      
-      <p class="text-[#0000009c] font-bold">zona oeste</p>
-
-      <p class="text-[#0000009c]"> bla </p>
+  <div class="grid justify-center gap-6 flex-wrap mx-auto mb-10 w-auto grid-cols-4">
+  <!-- Card Zona Oeste -->
+    <div class="card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Oeste">
+      <p class="text-[#0000009c] font-bold">Zona Oeste</p>
+      <p class="text-[#0000009c]">bla</p>
     </div>
-                  
-    
-                  <!-- fim do item 1-->
-                  <!--item 2-->
-              
-    <div class=" bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] h-[100px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 ml-4 mr-2 "> <!-- cada caixa -->
-      
-      <p class="text-[#0000009c] font-bold"> zona sul</p>
-      <p class="text-[#0000009c] "> oi </p>
+    <!-- Card Zona Sul -->
+    <div class="card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Sul">
+      <p class="text-[#0000009c] font-bold">Zona Sul</p>
+      <p class="text-[#0000009c]">oi</p>
     </div>
-            
-    <div class="bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 pd-0 h-[100px] ml-4 mr-2"> <!-- cada caixa -->
-      
-      <p class="text-[#0000009c] font-bold">zona leste</p>
-
-      <p class="text-[#0000009c]"> bla </p>
+    <!-- Card Zona Leste -->
+    <div class="card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Leste">
+      <p class="text-[#0000009c] font-bold">Zona Leste</p>
+      <p class="text-[#0000009c]">bla</p>
     </div>
-
-            
-    <div class="bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 pd-0 h-[100px] ml-4 mr-2"> <!-- cada caixa -->
-      
-      <p class="text-[#0000009c] font-bold">zona norte</p>
-
-      <p class="text-[#0000009c]"> bla </p>
-    </div>
-      
-
+    <!-- Card Zona Norte -->
+    <div class="card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Norte">
+      <p class="text-[#0000009c] font-bold">Zona Norte</p>
+      <p class="text-[#0000009c]">bla</p>
     </div>
   </div>
-</div>
-</main>
+
+  
+</main> 
 
 <!-- INICIO DO FOOTER -->
  <footer>
@@ -165,6 +149,9 @@
       </div>
   </section>
 </footer>
-  <!-- FINAL DO FOOTER -->
+
+    <div id="list" class="grid gap-6 mt-8"></div>
+
+    <script type="module" src="src/main.js"></script>
 </body>
 </html>

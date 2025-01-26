@@ -235,8 +235,11 @@ const missas = [
     },
 ];
 
-       const cards = document.querySelectorAll(".card");
-       const listContainer = document.querySelector("#list");
+const cards = document.querySelectorAll(".card");
+const modalZona = document.getElementById("modalZona");
+const fundoEscuro = document.getElementById("fundoEscuro");
+const fecharModal = document.getElementById("fecharModal");
+const listContainer = document.querySelector("#list");
 
        // Função para renderizar as missas
        function renderMissas(missas) {
@@ -272,5 +275,16 @@ const missas = [
 
                // Atualiza a lista com as missas filtradas
                renderMissas(missasFiltradas);
+
+               modalZona.style.display = "block";
+               fundoEscuro.style.display = "block";
            });
        });
+fecharModal.addEventListener("click", () => {  
+    modalZona.style.display = "none";
+    fundoEscuro.style.display = "none";
+    });
+fundoEscuro.addEventListener("click", () => {
+    modalZona.style.display = "none";
+    fundoEscuro.style.display = "none";
+    });

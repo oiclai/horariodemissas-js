@@ -4,23 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/src/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script> <!-- implementando tailwind -->
-    <!-- personalizando cores em hex pra ficar mais facil de colocar nas classes tailwind -->
-    <script> 
-        module.exports = {
-            theme: {
-                extend: {
-                    colors: {
-                        'medium-blue': '#49596b',
-                        'milk-white': '#f2f0e9',
-                    },
-                }
-            }
-        }
-    </script>
+    
 </head>
 <body>
     <nav class="bg-[#90aed4]">
@@ -108,22 +96,22 @@
     <!-- Bloco das Zonas para seleção do container (card zona) e abrir um modal com os horários da determinada zona - preenchendo o requisito de tratamento de eventos -->
   <div class="grid justify-center gap-6 flex-wrap mx-auto mb-10 w-auto grid-cols-4">
   <!-- Card Zona Oeste -->
-    <div class="card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Oeste">
+    <div id= "oeste" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2">
       <p class="text-[#0000009c] font-bold">Zona Oeste</p>
       <p class="text-[#0000009c]">exemplo de bairros</p>
     </div>
     <!-- Card Zona Sul -->
-    <div class="card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Sul">
+    <div id = "sul" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2">
       <p class="text-[#0000009c] font-bold">Zona Sul</p>
       <p class="text-[#0000009c]">exemplo de bairros</p>
     </div>
     <!-- Card Zona Leste -->
-    <div class="card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Leste">
+    <div id="leste" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Leste">
       <p class="text-[#0000009c] font-bold">Zona Leste</p>
       <p class="text-[#0000009c]">exemplo de bairros</p>
     </div>
     <!-- Card Zona Norte -->
-    <div class="card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Norte">
+    <div id="norte" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Norte">
       <p class="text-[#0000009c] font-bold">Zona Norte</p>
       <p class="text-[#0000009c]">exemplo de bairros</p>
     </div>
@@ -153,6 +141,6 @@
 
     <div id="list" class="grid gap-6 mt-8"></div>
 
-    <script type="module" src="src/main.js"></script>
+    <script type="module" src="/src/main.js"></script>
 </body>
 </html>

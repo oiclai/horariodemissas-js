@@ -11,7 +11,7 @@
     
 </head>
 <body>
-    <nav class="bg-[#90aed4]">
+    <nav class="bg-[#D7E7B3]">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -60,7 +60,7 @@
 
 
 
-    <div class="relative isolate overflow-hidden bg-[#3a5470] py-24 sm:py-32">
+    <div class="relative isolate overflow-hidden bg-[#D7E7B3] py-24 sm:py-32">
   <!-- <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=focalpoint&fp-y=.8&w=2830&h=1500&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply" alt="" class="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"> -->
   <!-- <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
     <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#01497C] to-[#468FAF] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
@@ -70,16 +70,16 @@
   </div> -->
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:mx-0">
-      <h2 class="text-5xl font-semibold tracking-tight text-[#edeadd] sm:text-7xl">HORÁRIOS
+      <h2 class="text-5xl font-semibold tracking-tight text-[#8C5383] sm:text-7xl">HORÁRIOS
         DE MISSAS</h2>
-      <p class="mt-8 text-pretty text-lg font-medium text-[#9ba9ba] sm:text-xl/8">Encontre os horários das missas em João Pessoa de forma fácil e rápida!</p>
+      <p class="mt-8 text-pretty text-lg font-medium text-[#8C5383] sm:text-xl/8">Encontre os horários das missas em João Pessoa de forma fácil e rápida!</p>
     </div>
     <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-      <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-[#edeadd] sm:grid-cols-2 md:flex lg:gap-x-10">
-        <a href="#">Zona Norte <span aria-hidden="true">&rarr;</span></a>
-        <a href="#">Zona Sul <span aria-hidden="true">&rarr;</span></a>
-        <a href="#">Zona Leste <span aria-hidden="true">&rarr;</span></a>
-        <a href="#">Zona Oeste <span aria-hidden="true">&rarr;</span></a>
+      <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-base/7 font-semibold text-[#8C5383] sm:grid-cols-2 md:flex lg:gap-x-10">
+        <a href="#" id="norte">Zona Norte <span aria-hidden="true">&rarr;</span></a>
+        <a href="#" id="sul">Zona Sul <span aria-hidden="true">&rarr;</span></a>
+        <a href="#" id="leste">Zona Leste <span aria-hidden="true">&rarr;</span></a>
+        <a href="#" id="oeste">Zona Oeste <span aria-hidden="true">&rarr;</span></a>
       </div>
     </div>
   </div>
@@ -87,34 +87,34 @@
 
 <main>
  
-  <div class="bg-[#edeadd] py-10 sm:py-10 t">
+  <div class="bg-[#D7E7B3] py-10 sm:py-10 t">
   <div class="mx-auto max-w-7xl px-6 lg:px-8 ">
     <div class="flex mx-auto  items-center lg:mx-0 justify-center mb-10">
-      <h2 class="text-pretty font-bold text-4xl tracking-tight text-[#3a5470] sm:text-5xl "> Ache seu horário por zona!</h2>
+      <h2 class="text-pretty font-bold text-4xl tracking-tight text-[#8C5383] sm:text-5xl "> Ache seu horário por zona!</h2>
 
-    </div>
+    <!-- </div> -->
     <!-- Bloco das Zonas para seleção do container (card zona) e abrir um modal com os horários da determinada zona - preenchendo o requisito de tratamento de eventos -->
-  <div class="grid justify-center gap-6 flex-wrap mx-auto mb-10 w-auto grid-cols-4">
+  <!-- <div class="grid justify-center gap-6 flex-wrap mx-auto mb-10 w-auto grid-cols-4"> -->
   <!-- Card Zona Oeste -->
-    <div id= "oeste" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2">
+    <!-- <div id= "oeste" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2">
       <p class="text-[#0000009c] font-bold">Zona Oeste</p>
       <p class="text-[#0000009c]">exemplo de bairros</p>
-    </div>
+    </div> -->
     <!-- Card Zona Sul -->
-    <div id = "sul" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2">
+    <!-- <div id = "sul" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2">
       <p class="text-[#0000009c] font-bold">Zona Sul</p>
       <p class="text-[#0000009c]">exemplo de bairros</p>
-    </div>
+    </div> -->
     <!-- Card Zona Leste -->
-    <div id="leste" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Leste">
+    <!-- <div id="leste" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Leste">
       <p class="text-[#0000009c] font-bold">Zona Leste</p>
       <p class="text-[#0000009c]">exemplo de bairros</p>
-    </div>
+    </div> -->
     <!-- Card Zona Norte -->
-    <div id="norte" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Norte">
+    <!-- <div id="norte" class="cursor-pointer selector-none card bg-[#fffcf2] justify-center rounded-[25px] p-5 w-[150px] hover:bg-[#dde5b6] my-4 hover:scale-110 duration-300 h-[100px] ml-4 mr-2" data-zona="Zona Norte">
       <p class="text-[#0000009c] font-bold">Zona Norte</p>
       <p class="text-[#0000009c]">exemplo de bairros</p>
-    </div>
+    </div> -->
   </div>
 
   
@@ -122,15 +122,15 @@
 
 <!-- INICIO DO FOOTER -->
  <footer>
-<section class="bg-[#90aed4] py-14">
+<section class="bg-[#8C5383] py-14">
       <div class="max-w-[1400px] mx-auto text-center px-5">
-        <p class="text-[#3a5470] font-semibold text-3xl">Compartilhe a proposta do site com seus amigos!</p>
-          <p class="text-[#bbd2ed] font-semibold text-2xl mt-1">Todos merecem se manter informados quanto ao horário das missas.</p>
-          <p class="text-[#bbd2ed] font-semibold mt-10">
+        <p class="text-[#D7E7B3] font-semibold text-3xl">Compartilhe a proposta do site com seus amigos!</p>
+          <p class="text-[#D7E7B3] font-semibold text-2xl mt-1">Todos merecem se manter informados quanto ao horário das missas.</p>
+          <p class="text-[#D7E7B3] font-semibold mt-10">
             Desenvolvido por 
-            <a href="https://www.linkedin.com/in/mariana-dos-santos-sarinho-7a15a52bb/" class="text-[#bbd2ed] hover:text-[#edeadd]"> @MarianaSarinho</a> 
-            <a href="https://www.linkedin.com/in/maria-clara-almeida-a39768300/" class="text-[#bbd2ed] hover:text-[#edeadd]"> @MariaClara</a> 
-            <a href="https://www.linkedin.com/in/clara-nunes-de-alcantara/" class="text-[#bbd2ed] hover:text-[#edeadd]"> @ClaraAlcantara</a>
+            <a href="https://www.linkedin.com/in/mariana-dos-santos-sarinho-7a15a52bb/" class="text-[#D7E7B3] hover:text-[#edeadd]"> @MarianaSarinho</a> 
+            <a href="https://www.linkedin.com/in/maria-clara-almeida-a39768300/" class="text-[#D7E7B3] hover:text-[#edeadd]"> @MariaClara</a> 
+            <a href="https://www.linkedin.com/in/clara-nunes-de-alcantara/" class="text-[#D7E7B3] hover:text-[#edeadd]"> @ClaraAlcantara</a>
           </p>
           <p class="text-[#3a5470] font-semibold mt-1">
             &copy; 2025 Horários de Missas em João Pessoa. Todos os direitos reservados.
@@ -138,8 +138,8 @@
       </div>
   </section>
 </footer>
-
-    <div id="list" class="grid gap-6 mt-8"></div>
+<!-- 
+    <div id="list" class="grid gap-6 mt-8"></div> -->
 
     <script type="module" src="/src/main.js"></script>
 </body>

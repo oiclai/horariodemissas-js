@@ -176,6 +176,14 @@ const missas = [
         zona: "Zona Oeste",
     },
     {
+        igreja: "Paróquia Sagrado Coração de Jesus - Santa Nossa Senhora das Graças",
+        bairro: "Mandacaru",
+        horario: "19h30",
+        turno: "Noite",
+        dia: "Segunda-feira",
+        zona: "Zona Oeste",
+    },
+    {
         igreja: "Paróquia São João Batista",
         bairro: "Costa e Silva",
         horario: "06h30",

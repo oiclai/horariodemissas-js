@@ -37,6 +37,8 @@ function renderModal(content) {
     `;
 
 
+
+
     document.body.appendChild(modal);
     document.getElementById("closeButton").addEventListener("click", () => {
         document.body.removeChild(modal);
@@ -48,7 +50,7 @@ function renderMissas(missas) {
     let list = missas
         .map(
             (missa) => `
-    <div class="missa border p-4 rounded bg-blue-100">
+    <div class="text-[#8C5383] missa border p-4 rounded bg-[#D7E7B3]">
       <h3 class="font-bold text-lg">${missa.igreja}</h3>
       <p><strong>Horário:</strong> ${missa.horario}</p>
       <p><strong>Bairro:</strong> ${missa.bairro}</p>

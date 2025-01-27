@@ -5,7 +5,7 @@ const missas = [
         horario: "06h00",
         turno: "Manhã",
         dia: "Segunda-feira",
-        zona: "zona leste",
+        zona: "Zona leste",
     },
     {
         igreja: "Comunidade Nossa Senhora do Carmo",

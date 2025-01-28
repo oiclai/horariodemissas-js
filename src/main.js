@@ -9,7 +9,7 @@ document.getElementById("sul").addEventListener("click", () => {
     renderModal(renderMissas(missasSul))
 });
 
-document.getElementById("leste").addEventListener("click", () => { // presta
+document.getElementById("leste").addEventListener("click", () => {
     let missasLeste = filterMissasByZona("Zona Leste");
     renderModal(renderMissas(missasLeste))
 });

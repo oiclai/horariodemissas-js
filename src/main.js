@@ -1,6 +1,5 @@
 import missas from "./pages/array.js";
 
-
 document.getElementById("oeste").addEventListener("click", () => {
     let missasOeste = filterMissasByZona("Zona Oeste");
     renderModal(renderMissas(missasOeste))
@@ -26,19 +25,16 @@ function filterMissasByZona(zona) {
 // modal
 function renderModal(content) {
     const modal = document.createElement("div");
-    modal.className= "fixed inset-0 bg-pink bg-opacity-10 flex items-center justify-center z-50";
+    modal.className =
+        "fixed top-0 right-0 h-screen w-[550px] bg-white shadow-lg z-50 overflow-auto";
     modal.innerHTML = `
     <div class= "max-h-[600px] overflow-auto relative border rounded-lg bg-neutral-200 p-1">
-        <button class="sticky top-3 text-pink-900" id="closeButton">
-        X
+        <button class="absolute top-2 right-2 text-[#8C5383] font-bold" id="closeButton">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="m7 7l10 10M7 17L17 7"/></svg>
         </button>
         ${content}
     </div>
     `;
-
-
-
-
     document.body.appendChild(modal);
     document.getElementById("closeButton").addEventListener("click", () => {
         document.body.removeChild(modal);
@@ -61,6 +57,4 @@ function renderMissas(missas) {
         .join("");
     return list;
 }
-
-// Inicializa com todas as missas
 renderMissas(missas);

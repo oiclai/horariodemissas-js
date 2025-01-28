@@ -1,24 +1,32 @@
 import missas from "./pages/array.js";
 
 document.getElementById("oeste").addEventListener("click", () => {
-    let missasOeste = filterMissasByZona("Zona Oeste");
-    renderModal(renderMissas(missasOeste))
+    handleZonaClick("Zona Oeste");
 });
 document.getElementById("sul").addEventListener("click", () => {
-    let missasSul = filterMissasByZona("Zona Sul");
-    renderModal(renderMissas(missasSul))
+    handleZonaClick("Zona Sul");
 });
-
 document.getElementById("leste").addEventListener("click", () => {
-    let missasLeste = filterMissasByZona("Zona Leste");
-    renderModal(renderMissas(missasLeste))
+    handleZonaClick("Zona Leste");
 });
-
 document.getElementById("norte").addEventListener("click", () => {
-    let missasNorte = filterMissasByZona("Zona Norte");
-    renderModal(renderMissas(missasNorte))
+    handleZonaClick("Zona Norte");
 });
+// local storage  ------------------------------------------
+function handleZonaClick(zona) {
+    localStorage.setItem("ultimaZona", zona);
+    let missasZona = filterMissasByZona(zona);
+    renderModal(renderMissas(missasZona));
+}
 
+window.addEventListener("load", () => {
+    const ultimaZona = localStorage.getItem("ultimaZona");
+    if (ultimaZona) {
+        let missasZona = filterMissasByZona(ultimaZona);
+        renderModal(renderMissas(missasZona));
+    }
+});
+// -------------------------------------------------------------------
 function filterMissasByZona(zona) {
     return missas.filter((missa) => missa.zona === zona);
 }
@@ -57,4 +65,4 @@ function renderMissas(missas) {
         .join("");
     return list;
 }
-renderMissas(missas);
+// renderMissas(missas);

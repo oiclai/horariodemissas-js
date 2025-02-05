@@ -3,6 +3,7 @@ Repositório para realização das etapa I do projeto da Disciplina Linguagem de
 
 A essência do projeto esta na praticidade do usuário acessar e se informar quanto as atividades de missas das igrejas da cidade, sendo categorizadas por dias da semana e subcategorizadas em zonas da cidade e turnos de missa.
 
+Link para acessar o projeto: [horariodemissas-js](https://oiclai.github.io/horariodemissas-js/dist/)
 
 > Reutilização do projeto de LM 2024.1
 

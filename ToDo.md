@@ -5,7 +5,7 @@
 - [X] Implementar NextJS para usar React
 
 - [X] Configurar o Supabase: Criar um banco de dados no Supabase
-    - [ ] definir as tabelas (por exemplo, uma tabela "missas" com colunas como id, zona, dia_da_semana, local, horario e turno).
+    - [X] definir as tabelas (por exemplo, uma tabela "missas" com colunas como id, zona, dia_da_semana, local, horario e turno).
 
 - [ ] Conectar o Next.js ao Supabase: Instalar o SDK do Supabase no projeto e configurar a conexão.
 

@@ -2,7 +2,7 @@
 
 - [X] Limpar código. Etapa I tá na branch 'hdm-etapaI-vitejs'.
 
-- [ ] Implementar NextJS para usar React
+- [X] Implementar NextJS para usar React
 
 - [ ] Configurar o Supabase: Criar um banco de dados no Supabase e definir as tabelas (por exemplo, uma tabela "missas" com colunas como id, zona, dia_da_semana, local, horario e turno).
 

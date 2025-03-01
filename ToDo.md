@@ -25,3 +25,7 @@
 - [ ] Componentes ReactJS;
 
 - [ ] Gerencia de estado entre Componentes;
+
+#### observações ⚠
+- public/index.html: as configurações globais do HTML
+- src/App.js: comp principal onde começa a editar o layout e a logica da sua page

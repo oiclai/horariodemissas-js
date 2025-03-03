@@ -1,4 +1,4 @@
- # Projeto Avaliativo 'Horários De Missa'
+ # 🚧 Projeto Avaliativo 'Horários De Missa' /em Construção 🚧 
 Repositório para realização das etapa I e etapa II do projeto da Disciplina Linguagem de Script. 2024.2.
 
 A essência do projeto esta na praticidade do usuário acessar e se informar quanto as atividades de missas das igrejas da cidade, sendo categorizadas por dias da semana e subcategorizadas em zonas da cidade e turnos de missa.

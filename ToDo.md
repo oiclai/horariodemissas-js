@@ -31,7 +31,7 @@
 
 - [ ] Componentes ReactJS;
 
-- [ ] Gerencia de estado entre Componentes;
+- [ ] Gerencia de estado entre Componentes; -> da p usar na barra de pesquisa tb p filtragem mais interativa
 
 #### observações ⚠
 - public/index.html: as configurações globais do HTML

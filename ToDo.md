@@ -7,11 +7,17 @@
 - [X] Configurar o Supabase: Criar um banco de dados no Supabase
     - [X] definir as tabelas (por exemplo, uma tabela "missas" com colunas como id, zona, dia_da_semana, local, horario e turno).
 
-- [ ] Conectar o Next.js ao Supabase: Instalar o SDK do Supabase no projeto e configurar a conexão.
+- [X] Conectar o Next.js ao Supabase: Instalar o SDK do Supabase no projeto e configurar a conexão.
 
 - [ ] Fazer requisições assíncronas: Criar funções para buscar, inserir e atualizar os dados do Supabase diretamente no Next.js. (fetch/axios)*
 
-- [ ] Combinar Expressoes Regulares
+- [ ] Combinar Expressoes Regulares 
+ ( 
+    da p usar na filtragem qunto a colocarem um horario e ele trazer as missas com os turnos:
+    if (turno === "Manhã") {
+    regex = "^(0[5-9]|1[0-1]):[0-5]\\d$" (05:00 ate 11:59)
+    } ai puxa do db as missas da Manhã
+ )
 
 - [ ] Combinar componentes ReactJS
 

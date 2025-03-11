@@ -6,29 +6,36 @@ A essência do projeto esta na praticidade do usuário acessar e se informar qua
 > Corpo de arquivos pertencentes ao projeto - incompleto 📁
 
  ```
-    horariodemissas-js/
-├─ .env.local
-├─ .gitignore
-├─ file_tree.txt
-├─ horariodemissas/
-│  ├─ package-lock.json
-│  ├─ package.json
-│  ├─ public/
-│  │  ├─ index.html
-│  │  ├─ manifest.json
-│  │  └─ robots.txt
-│  └─ src/
-│     ├─ App.css
-│     ├─ App.js
-│     ├─ App.test.js
-│     ├─ index.css
-│     ├─ index.js
-│     ├─ reportWebVitals.js
-│     └─ setupTests.js
-├─ package-lock.json
-├─ package.json
-├─ README.md
-└─ ToDo.md
+horariodemissas-js/
+├── public/
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── src/
+│   ├── app/
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   ├── old-page.js
+│   │   └── page.js
+│   ├── components/
+│   │   ├── searchbar.jsx
+│   │   └── searchresults.jsx
+│   ├── context/
+│   │   └── searchstate.js
+│   └── services/
+│   │   └── supabase.js
+├── .gitignore
+├── README.md
+├── ToDo.md
+├── eslint.config.mjs
+├── jsconfig.json
+├── next.config.mjs
+├── package-lock.json
+├── package.json
+└── postcss.config.mjs
  ```
 
 ### Desenvolvedoras responsáveis pelo projeto

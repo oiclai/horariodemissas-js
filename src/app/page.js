@@ -1,4 +1,3 @@
-// /src/App.jsx
 import "./styles/globals.css";
 import React from "react";
 import { SearchProvider } from "@/context/searchstate";
@@ -7,12 +6,24 @@ import SearchResults from "@/components/searchresults";
 
 const App = () => (
     <SearchProvider>
-        <div>
-            <h1>Busca de Igrejas</h1>
-            <h1>Busca de Igrejas</h1>
+        <div id="main-app-component">
+            <header>
+                <h1>HORÁRIOS DE MISSAS</h1>
+                <p>Encontre os horários das missas em João Pessoa de forma fácil e rápida!</p>
+            </header>
 
-            <SearchBar />
-            <SearchResults />
+            <main>
+                <div className="search-container">
+                    <SearchBar />
+                </div>
+                <SearchResults />
+            </main>
+            
+            <footer>
+                <p>Compartilhe a proposta do site com seus amigos!</p>
+                <p>Todos merecem se manter informados quanto ao horário das missas.</p>
+                <p>Desenvolvido por @MarianaSarinho @MariaClara @ClaraAlcantara</p>
+            </footer>
         </div>
     </SearchProvider>
 );

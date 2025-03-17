@@ -9,6 +9,8 @@ const App = () => (
     <SearchProvider>
         <div>
             <h1>Busca de Igrejas</h1>
+            <h1>Busca de Igrejas</h1>
+
             <SearchBar />
             <SearchResults />
         </div>

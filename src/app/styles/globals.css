@@ -18,7 +18,7 @@ h1,
 h2,
 h3 {
     font-family: var(--font-geist-mono), monospace;
-    color: blue;
+    color: black;
 }
 
 .layout {

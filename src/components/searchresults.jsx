@@ -6,7 +6,7 @@ const SearchResults = () => {
   const { filteredMissas } = useSearch();
 
   return (
-    <div>
+    <div className='layout'>
       {filteredMissas.length > 0 ? (
         <ul>
           {filteredMissas.map((missa, index) => (

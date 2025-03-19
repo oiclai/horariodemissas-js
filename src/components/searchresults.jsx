@@ -16,7 +16,7 @@ const SearchResults = () => {
           ))}
         </ul>
       ) : (
-        <p>Nenhuma horário encontradao.</p>
+        <p>Pesquise uma igreja.</p>
       )}
     </div>
   );

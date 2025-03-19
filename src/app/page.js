@@ -22,7 +22,7 @@ const App = () => (
             <footer>
                 <p>Compartilhe a proposta do site com seus amigos!</p>
                 <p>Todos merecem se manter informados quanto ao horário das missas.</p>
-                <p>Desenvolvido por @MarianaSarinho @MariaClara @ClaraAlcantara</p>
+                <p>Desenvolvido por <a href="https://github.com/MarianaSarinho" target="_blank" rel="noopener noreferrer">@MarianaSarinho</a>, <a href="https://github.com/MariaClara" target="_blank" rel="noopener noreferrer">@MariaClara</a>, <a href="https://github.com/ClaraAlcantara" target="_blank" rel="noopener noreferrer">@ClaraAlcantara</a></p>
             </footer>
         </div>
     </SearchProvider>

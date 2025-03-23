@@ -1,7 +1,7 @@
 import "./styles/globals.css";
 import React from "react";
 import { SearchProvider } from "@/context/searchstate";
-import SearchBar from "@/components/searchbar";
+ge import SearchBar from "@/components/searchbar";
 import SearchResults from "@/components/searchresults";
 
 const App = () => (
@@ -22,7 +22,8 @@ const App = () => (
             <footer>
                 <p>Compartilhe a proposta do site com seus amigos!</p>
                 <p>Todos merecem se manter informados quanto ao horário das missas.</p>
-                <p>Desenvolvido por <a href="https://github.com/MarianaSarinho" target="_blank" rel="noopener noreferrer">@MarianaSarinho</a>, <a href="https://github.com/MariaClara" target="_blank" rel="noopener noreferrer">@MariaClara</a>, <a href="https://github.com/ClaraAlcantara" target="_blank" rel="noopener noreferrer">@ClaraAlcantara</a></p>
+                <p>Desenvolvido por <a href="https://www.linkedin.com/in/mariana-dos-santos-sarinho-7a15a52bb/" target="_blank" rel="noopener noreferrer">@MarianaSarinho</a>, <a href="https://www.linkedin.com/in/maria-clara-almeida-a39768300/" target="_blank" rel="noopener noreferrer">@MariaClara</a>,
+                <a href="https://www.linkedin.com/in/clara-nunes-de-alcantara/" target="_blank" rel="noopener noreferrer">@ClaraAlcantara</a></p>
             </footer>
         </div>
     </SearchProvider>

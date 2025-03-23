@@ -1,7 +1,7 @@
 import "./styles/globals.css";
 import React from "react";
 import { SearchProvider } from "@/context/searchstate";
-ge import SearchBar from "@/components/searchbar";
+import SearchBar from "@/components/searchbar";
 import SearchResults from "@/components/searchresults";
 
 const App = () => (

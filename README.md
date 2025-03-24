@@ -3,6 +3,9 @@ Repositório para realização das etapas I e II do projeto da Disciplina Lingua
 
 ### 💡 Descrição
 A essência do projeto esta na praticidade do usuário acessar e se informar quanto as atividades de missas das igrejas da cidade, sendo categorizadas por dias da semana e subcategorizadas em zonas da cidade e turnos de missa.
+
+---
+
 ### 📂 Estrutura de Arquivos
 ```bash
   horariodemissas-js/
@@ -37,6 +40,17 @@ A essência do projeto esta na praticidade do usuário acessar e se informar qua
  ├─ postcss.config.mjs
  └─ README.md
 ```
+---
+
+### 🗃️ Requisitos do Projeto
+
+| Requisito | Como foi preenchido |
+|---------|-----------|
+| **RegExp (Regular Expressions)** | Filtragem Dinâmica dos resultados da Barra de Pesquisa |
+| **Requisição Assíncrona** | Para Buscar Dados do Banco de Dados |
+| **Banco de Dados com DBaaS (Data Base as a Service)** | Supabase |
+| **Componentes ReactJS** | Componentes ReactJS Reutilizáveis (Barra de Pesquisa) |
+| **Gerenciamento de Estados** | com Context API |
 ---
 
 ### 🚺 Desenvolvedoras responsáveis pelo projeto
